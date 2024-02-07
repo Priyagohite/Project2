@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700,800,900&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+img[src*="https://cdn.000webhost.com/000webhost/logo/footer-powered-by-000webhost-white2.png"]{
+    display: none;
+}
+
+.back-light{
+    background-color: white;
+}
+
+.font-light{
+    color: black;
+}
+.fixed-top{
+    background: white;
+}
+.active{
+    color: #ff6701!important;
+}
+
+.navbar-light .navbar-nav .show>.nav-link {
+    text-decoration: none;
+    color: var(--pure);
+    font-family: 'Poppins';
+    font-size: 1.1rem;
+    transition: all.3s ease;
+    color: rgba(0,0,0,.9);
+}
+
+.nav-link{
+    padding: 0.90rem 1rem;
+}
+
+.nav-item{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav-item .nav-link:hover{
+    color: #ff6701!important;                                                                     
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: #232b38;
+    font-weight: 500;
+}
+
+.navbar-light .navbar-toggler-icon {
+    background-image:none;
+}
+
+.navbar-brand{
+    font-size: 1.5rem;
+    font-weight: 700;
+    font-family: sans-serif;
+    margin-left: 2rem;
+}
+
+.navbar-brand i{
+    margin-right: 0.30rem;
+    color: #fb5a20;
+}
+
+.fa-2x{
+    font-size: 1.2em;
+}
+
+.container-1{
+    margin-top: 6rem;
+}
+
+.container-1 h2{
+    font-weight: 700;
+    color: #ff3500;
+    text-align: center;
+    border-bottom: 1px solid #d0d0d0;
+    padding-bottom: 1rem;
+}
+
+.container-2{
+    margin-top: 2rem;
+}
+
+.container-2 p{
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+li{
+    line-height: 25px;
+}
+
+@media (max-width:1092px){
+    .navbar-light .navbar-nav .nav-link {
+       font-size: 0.90rem;
+    }
+}
+@media (min-width: 992px){
+    
+.navbar-expand-lg .navbar-collapse {
+    display: flex!important;
+    flex-basis: auto;
+    justify-content: center;
+}
+}
+
+@media (max-width: 991px){
+    .fixed-top{
+        background-color: rgb(33, 33, 34);
+    }
+    .navbar-light .navbar-brand {
+        color: rgba(255, 255, 255, 0.9);
+    }
+    i{
+        color: #949191;
+    }
+    .navbar-light .navbar-nav .nav-link {
+        color: #e2e2e2;
+        font-weight: 500;
+        font-size: 1.1rem;
+    }
+}

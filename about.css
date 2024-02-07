@@ -1,0 +1,374 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700,800,900&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins',sans-serif;
+}
+
+
+:root{
+    --primary:#fda517;
+    --secondary:#232B38;
+    --ternary:#6C6C6C;
+    --danger:#FE4545;
+    --pure:#FEFEFE;
+    --light:#F0F0F0;
+    --heaven:#FFFFFF;
+    --footer:#05151f;
+}
+
+
+img[src*="https://cdn.000webhost.com/000webhost/logo/footer-powered-by-000webhost-white2.png"]{
+    display: none;
+}
+
+.back-light{
+    background-color: white;
+}
+
+.font-light{
+    color: black;
+}
+.fixed-top{
+    background: white;
+}
+.active{
+    color: #ff6701!important;
+}
+
+.navbar-light .navbar-nav .show>.nav-link {
+    text-decoration: none;
+    color: var(--pure);
+    font-family: "Raleway-bold";
+    font-size: 1.1rem;
+    transition: all.3s ease;
+    color: rgba(0,0,0,.9);
+}
+
+.nav-link{
+    padding: 0.90rem 1rem;
+}
+
+.nav-item{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav-item .nav-link:hover{
+    color: #ff6701!important;                                                                     
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: #232b38;
+    font-weight: 500;
+}
+
+.navbar-light .navbar-toggler-icon {
+    background-image:none;
+}
+
+.navbar-brand{
+    font-size: 1.5rem;
+    font-weight: 700;
+    font-family: sans-serif;
+    margin-left: 2rem;
+}
+
+.navbar-brand i{
+    margin-right: 0.30rem;
+    color: #fb5a20;
+}
+
+.fa-2x{
+    font-size: 1.2em;
+}
+
+.hero{
+    height: 400px;
+    background-image: linear-gradient(to left, rgba(0,0,0) 30%, transparent),url('./images/about.webp');
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-text{
+    text-align: center;
+    margin-left:0.50rem;
+    margin-right:0.50rem;
+}
+
+.hero-text h5{
+    color: white;    
+    font-size: 1.8rem;
+    font-weight: 900;
+    font-family: sans-serif;
+}
+
+.hero-text p{
+    color: white;
+}
+
+.container-fluid{
+    display: flex;
+}
+
+.btn{
+    background-color: #ef9d68;
+    color: white;
+}
+
+.card-1,
+.card-2{
+    width: 50%;
+}
+
+.card-2{
+    background-color: #f7f7f7;
+}
+
+.card-2 h3,
+.card-1 h1{
+    margin-bottom: 1rem;
+    margin-top: 3rem;
+}
+
+.card-2 h5,
+.card-2 p{
+    margin-bottom: 2rem;
+}
+
+.container-fluid-3 .card{
+    background-color: #c4d0de;
+    text-align: center;
+}
+
+.row{
+    display: flex;
+    justify-content: center;
+}
+
+.main-container-3 {
+    margin-bottom: 2rem;
+}
+
+.main-container-3 .card{
+    animation-name: nice;
+    animation-duration: 2s;
+    animation-delay: 1s;
+}
+
+@keyframes nice{
+    0% {
+        margin-top: 450px;
+    }
+    
+    100% {
+        margin-top: 0px;
+    }
+}
+
+.main-container-3 .card-body h5{
+    font-size: 1.1rem;
+}
+
+.main-container-3 .card-body p{
+    font-size: 0.90rem;
+}
+
+.main-container-3 .card-body{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: 250px;
+}
+
+.main-container-3 .card-image img{
+    width: 100%;
+    height: 200px;
+}
+
+footer{
+    background: var(--footer);
+    padding-top: 2rem;
+    color: white;
+}
+
+footer h5{
+    margin-bottom: 1rem;
+    border-bottom: 1px solid var(--primary);
+    padding-bottom: 1rem;
+    width: 50%;
+}
+
+footer p{
+    color: #CECBCB;
+    text-transform: capitalize;
+}
+
+footer .footer-child-4 p:nth-child(2){
+    margin-bottom: 0.50rem;
+}
+
+footer .footer-child-4 p:nth-child(3){
+    margin-bottom: 0.80rem;
+    font-size: 13px;
+}
+
+footer .footer-child-4 p:nth-child(6){
+    text-transform: lowercase;
+}
+
+footer .footer-child-4 p i{
+    margin-right: 0.50rem;
+}
+
+footer .copyright{
+    font-size: 14px;
+}
+
+footer .footer-child-3 a{
+    text-decoration: none;
+    color: #CECBCB;
+}
+
+footer .footer-child-3 a i{
+    margin-bottom: 1rem;
+    margin-right: 0.30rem;
+}
+
+footer .footer-child-3 .app-box{
+    margin-top: 2rem;
+}
+
+footer .footer-child-3 .app-box h5{
+    font-family: -webkit-pictograph;
+    border: none;
+    font-size: 17px;
+    width: 100%;
+}
+
+footer .footer-child-3 .app-box img{
+    width: 50%;
+    border: 2px solid black;
+}
+
+@media (max-width:1199px) {
+    .main-container-3 .card .card-body{
+        height: 300px;
+    }
+}
+
+@media (max-width:956px){
+    .hero{
+        background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url('./images/about.webp');
+        background-size: 100% 100%;
+        height:350px;
+    }
+}
+
+@media (min-width: 992px){
+    
+.navbar-expand-lg .navbar-collapse {
+    display: flex!important;
+    flex-basis: auto;
+    justify-content: center;
+}
+}
+
+@media (max-width: 991px){
+    .col-3 {
+        width: 50%;
+        margin-bottom: 1rem;
+    }
+    .fixed-top{
+        background-color: rgb(33, 33, 34);
+    }
+    .navbar-light .navbar-brand {
+        color: rgba(255, 255, 255, 0.9);
+    }
+    i{
+        color: #949191;
+    }
+    .navbar-light .navbar-nav .nav-link {
+        color: #e2e2e2;
+        font-weight: 500;
+        font-size: 1.1rem;
+    }
+    .main-container-3 .card .card-body{
+        height: 200px;
+        text-align: center;
+    }
+    .main-container-3 .card{
+       margin-bottom: 2rem;
+    }
+    .col-sm-12 {
+        width: 80%;
+    }
+}
+
+@media (max-width:767px){
+    .col-sm-12 {
+        width: 100%;
+    }
+}
+
+@media (max-width:737px){
+    .container-fluid-2{
+        flex-direction: column;
+    }
+    .card-1,
+    .card-2{
+        width: 100%;
+    }
+}
+
+
+@media (max-width: 590px){
+.col-3 {
+    width: 100%;
+    margin-bottom: 1rem;
+}
+
+footer .footer-child-3 .app-box{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+}
+
+@media (max-width: 575px){
+    .footer-child-1,
+    .footer-child-2,
+    .footer-child-3,
+    .footer-child-4{
+        margin-left: 1rem;
+        margin-bottom: 1.5rem;
+    }
+    
+    footer .footer-child-3 .app-box{
+        margin-top: 0;
+        margin-bottom: 1rem;
+    }
+
+    footer .footer-child-3 .app-box img{
+        margin-top: -1rem;
+    }
+
+}
+
+
+@media (max-width:485px){
+    .main-container-3 .card .card-body{
+        height: 300px;
+    }
+}
+
+@media (max-width: 360px){
+    footer .footer-child-3 .app-box{
+        margin-top: 1rem;
+    }
+}
+

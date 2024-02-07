@@ -1,0 +1,486 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700,800,900&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins',sans-serif;
+}
+
+:root{
+    --primary:#fda517;
+    --secondary:#232B38;
+    --ternary:#6C6C6C;
+    --danger:#FE4545;
+    --pure:#FEFEFE;
+    --light:#F0F0F0;
+    --heaven:#FFFFFF;
+    --footer:#05151f;
+}
+img[src*="https://cdn.000webhost.com/000webhost/logo/footer-powered-by-000webhost-white2.png"]{
+    display: none;
+}
+
+.back-light{
+    background-color: white;
+}
+
+.font-light{
+    color: black;
+}
+
+.fixed-top{
+    background: white;
+}
+
+.active{
+    color: #ff6701!important;
+}
+
+.navbar-light .navbar-nav .show>.nav-link {
+    text-decoration: none;
+    color: var(--pure);
+    font-family: "Raleway-bold";
+    font-size: 1.1rem;
+    transition: all.3s ease;
+    color: rgba(0,0,0,.9);
+}
+
+.nav-link{
+    padding: 0.90rem 1rem;
+}
+
+.nav-item{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav-item .nav-link:hover{
+    color: #ff6701!important;                                                                     
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: #232b38;
+    font-weight: 500;
+}
+
+.navbar-light .navbar-toggler-icon {
+    background-image:none;
+}
+
+.navbar-brand{
+    font-size: 1.5rem;
+    font-weight: 700;
+    font-family: sans-serif;
+    margin-left: 2rem;
+}
+
+.navbar-brand i{
+    margin-right: 0.30rem;
+    color: #fb5a20;
+}
+
+.fa-2x{
+    font-size: 1.2em;
+}
+
+.row{
+    margin-bottom: 3rem;
+    display: flex;
+    justify-content: center;
+}
+.col-2{
+    width: 33.33%;
+    margin-bottom: 1rem;
+    cursor: pointer;
+}
+
+.section{
+    background-image: linear-gradient(rgb(60 89 103 / 30%),rgb(37 37 41 / 12%)),url(./images/saathi.jpg);
+    height: 300px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-top: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section .container{
+    background-color: #a96f255c;
+    border-radius: 50%;
+}
+
+.section .container h1,
+.section .container h5{
+    color: white;
+    text-align: center;
+    font-weight: 600;
+}
+
+.section .container h1{
+    font-size: 2.3rem;
+}
+
+.section-1 .container{
+    margin-top: 3rem;
+}
+
+.section-1 .container h3{
+    text-align: center;
+    font-family: sans-serif;
+    margin-bottom: 1rem;
+    font-weight: 500;
+}
+
+.card-image{
+    width: 100%;
+}
+
+.card-image img{
+    width: 100%;
+    padding: 0.25rem;
+    transition: transform .2s;
+}
+
+.section-1 .container .row{
+    margin-top: 2rem;
+    margin-bottom: 1.5rem;
+}
+
+.section-1 .container .card-image img:hover{
+    transform: scale(0.98);
+}
+
+.section-2 .row{
+    margin-right: 0;
+    margin-top: 3rem;
+    align-items: center;
+}
+
+.section-2 h3{
+    text-align: center;
+    color: #ff6d00;
+    margin-bottom: 1rem;
+    font-weight: 600;
+    font-size: 1.4rem;
+}
+
+.section-2 .container .form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.section-2 .box{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 0.50rem;
+}
+
+.section-2 .box label{
+    margin-right: 5rem;
+    font-size: 1.1rem;
+}
+
+.section-2 .box input{
+    border: 2px solid #bcbcbc;
+    padding: 0.30rem 3rem 0rem 0.80rem;
+    background: whitesmoke;
+    margin-bottom: 0.50rem;
+}
+
+.section-2 form{
+    border: 1px solid #dddbdb;
+    padding: 1rem;
+    background-color: #f8f8f8;
+}
+
+.button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn{
+    background-color: #ff6d00;
+    width: 100%;
+    color: white;
+    font-size: 1.1rem;
+    font-weight: 600;
+    transition: all .3s ease-in;
+}
+
+.btn:hover{
+    background-color: transparent;
+    color: #ff6d00d4;
+}
+
+.section-2 p{
+    font-weight: 600;
+    text-align: center;
+}
+
+.contact{
+    padding: 1rem;
+    width: 60%;
+}
+
+.contact i{
+    margin-top: 1rem;
+    margin-right: 0.50rem;
+    font-size: 1.2rem;
+    color: green;
+}
+
+.contact h4{
+    font-size: 1.3rem;
+    font-family: sans-serif;
+    color: green;
+}
+
+.contact h5{
+    font-size: 1rem;
+}
+
+.section-3{
+    margin-top: 1rem;
+    background: #c4d0de;
+}
+
+.section-3 .card{
+    border: none;
+    box-shadow: 0 1rem 3rem rgba(0,0,0,.175)!important;
+    padding: 1rem;
+    margin-top: 1rem;
+}
+
+.section-3 .card h5{
+    margin-top: 1rem;
+    text-align: center;
+}
+
+.section-3 .card ul{
+    margin-top: 1rem;
+}
+
+.section-3 .card li{
+    line-height: 2;
+    padding-left: 0.50rem;
+}
+
+.section-4{
+    background-color: rgb(169 194 193);
+}
+
+/* footer */
+footer{
+    background: var(--footer);
+    padding-top: 2rem;
+    color: white;
+}
+
+footer h5{
+    margin-bottom: 1rem;
+    border-bottom: 1px solid var(--primary);
+    padding-bottom: 1rem;
+    width: 50%;
+}
+
+footer p{
+    color: #CECBCB;
+    text-transform: capitalize;
+}
+
+footer .footer-child-4 p:nth-child(2){
+    margin-bottom: 0.50rem;
+}
+
+footer .footer-child-4 p:nth-child(3){
+    margin-bottom: 0.80rem;
+    font-size: 13px;
+}
+
+footer .footer-child-4 p:nth-child(6){
+    text-transform: lowercase;
+}
+
+footer .footer-child-4 p i{
+    margin-right: 0.50rem;
+}
+
+footer .copyright{
+    font-size: 14px;
+}
+
+footer .footer-child-3 a{
+    text-decoration: none;
+    color: #CECBCB;
+}
+
+footer .footer-child-3 a i{
+    margin-bottom: 1rem;
+    margin-right: 0.30rem;
+}
+
+footer .footer-child-3 .app-box{
+    margin-top: 2rem;
+}
+
+footer .footer-child-3 .app-box h5{
+    font-family: -webkit-pictograph;
+    border: none;
+    font-size: 17px;
+    width: 100%;
+}
+
+footer .footer-child-3 .app-box img{
+    width: 50%;
+    border: 2px solid black;
+}
+
+@media (max-width : 1199px) {
+    .col-2{
+        width: 40%;
+    }
+}
+
+@media (max-width : 1084px) {
+    .section-2 .box label {
+        margin-right: 2rem;
+        font-size: 1rem;
+    }
+}
+
+@media (max-width : 1054px) {
+    .section-2 .box label {
+        margin-right: 1rem;
+        font-size: 1rem;
+    }
+}
+
+@media (max-width : 991px) {
+    .col-3 {
+        width: 50%;
+        margin-bottom: 1rem;
+    }
+    .fixed-top{
+        background-color: rgb(33, 33, 34);
+    }
+    .navbar-light .navbar-brand {
+        color: rgba(255, 255, 255, 0.9);
+    }
+    i{
+        color: #949191;
+    }
+    .navbar-light .navbar-nav .nav-link {
+        color: #e2e2e2;
+        font-weight: 500;
+        font-size: 1.1rem;
+    }
+}
+@media (max-width: 948px){
+    .section-2 .box input {
+        padding: 0;
+    }
+}
+@media (min-width: 992px){
+    .navbar-expand-lg .navbar-collapse {
+        display: flex!important;
+        flex-basis: auto;
+        justify-content: center;
+}
+}
+@media (max-width: 909px){
+    .section-2 form {
+        width: 120%;
+    }
+}
+@media (max-width: 861px){
+    .contact{
+        width: 100%;
+    }
+}
+@media (max-width: 793px){
+    .section-2 form {
+        width: 130%;
+    }
+}
+@media (max-width: 767px){
+    .section-2 form {
+        width: 100%;
+        margin-bottom: 1.5rem;
+    }
+    .contact{
+        width: 60%;
+    }
+}
+@media (max-width: 590px){
+    .col-3 {
+        width: 100%;
+        margin-bottom: 1rem;
+    }
+    footer .footer-child-3 .app-box{
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+    }
+}
+
+@media (max-width: 575px){
+    .footer-child-1,
+    .footer-child-2,
+    .footer-child-3,
+    .footer-child-4{
+        margin-left: 2rem;
+        margin-bottom: 1.5rem;
+    }
+    
+    footer .footer-child-3 .app-box{
+        margin-top: 0;
+        margin-bottom: 1rem;
+    }
+
+    footer .footer-child-3 .app-box img{
+        margin-top: -1rem;
+    }
+    .section .container h1 {
+        font-size: 2rem;
+        padding: 5px;
+    }
+}
+
+@media (max-width: 448px){
+    .contact{
+        width: 100%;
+    }
+
+    .section-2 .box {
+        flex-direction: column;
+    }
+    .section-2 p {
+        padding: 0.75rem;
+    }
+}
+
+@media (max-width : 360px) {
+    footer .footer-child-3 .app-box{
+        margin-top: 1rem;
+    }
+    .section .container h1 {
+        font-size: 1.5rem;
+        padding: 1px;
+    }
+    .section .container h5 {
+        font-size: 1rem;
+        font-weight: 400;
+    }
+    .p-3{
+        padding: 0.50!important;
+    }
+    .p-5{
+        padding: 1rem!important;
+    }
+}

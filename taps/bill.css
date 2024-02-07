@@ -1,0 +1,269 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700,800,900&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins',sans-serif;
+}
+
+body{
+    background: #ccccdd;
+}
+
+
+.back-light{
+    background-color: white;
+}
+
+.font-light{
+    color: black;
+}
+
+.fixed-top{
+    background: white;
+}
+
+.active{
+    color: #ff6701!important;
+}
+
+.navbar-light .navbar-nav .show>.nav-link {
+    text-decoration: none;
+    color: var(--pure);
+    font-family: "Raleway-bold";
+    font-size: 1.1rem;
+    transition: all.3s ease;
+    color: rgba(0,0,0,.9);
+}
+
+.nav-link{
+    padding: 0.90rem 1rem;
+}
+
+.nav-item{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav-item .nav-link:hover{
+    color: #ff6701!important;                                                                     
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: #232b38;
+    font-weight: 500;
+}
+
+.navbar-light .navbar-toggler-icon {
+    background-image:none;
+}
+
+.navbar-brand{
+    font-size: 1.5rem;
+    font-weight: 700;
+    font-family: sans-serif;
+    margin-left: 2rem;
+}
+
+.navbar-brand i{
+    margin-right: 0.30rem;
+    color: #fb5a20;
+}
+
+.fa-2x{
+    font-size: 1.2em;
+}
+
+.container-1,
+.container-2{
+    background: white;
+    border: 1px solid rgb(182, 181, 181);
+}
+.image img{
+    width: 25%;
+}
+.image{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 1rem;
+    margin-top: 2rem;
+}
+.timing{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border-bottom: 1px solid #dddddd;
+    border-top: 1px solid #dddddd;
+    padding: 1rem 0;
+}
+.span{
+    background: #a5a1a1;
+    padding: .5rem;
+    border-radius: 50%;
+    color: white;
+    font-weight: 600;
+}
+.destination .t-1 h5{
+    font-size: 1.2rem;
+}
+.destination .t-1 p{
+    font-size: .5rem;
+}
+.invoice h6{
+    padding: 1rem 0px 0rem 1rem;
+    font-size: 1.5rem;
+    margin-bottom: 0;
+}
+.invoice-data{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem;
+    border-bottom: 1px solid #dddddd;
+}
+.invoice-gst{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem;
+    border-bottom: 1px solid #dddddd;
+}
+p{
+    margin-bottom: 0;
+}
+.button{
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.btn{
+    background: orange;
+    color: white;
+    font-weight: 600;
+    border-radius: 0;
+}
+.btn:hover{
+    color: white;
+    background: #ff8e25;
+}
+.media{
+    padding: 1rem;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+.invoice h6{
+    font-weight: 200;
+}
+.invoice-data h5{
+    font-size: 1.1rem;
+    font-weight: 600;
+}
+.invoice-data p{
+    color: grey;
+}
+.image p,
+.t-1 p{
+    color: grey;
+}
+.image h5{
+    font-weight: 600;
+}
+.row{
+    align-items: center;
+}
+section{
+    margin-top: 5rem;
+    display: flex;
+    align-items: center;
+}
+.media i{
+    font-weight: 900;
+    color: #ff7200;
+}
+.user-info{
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+.user{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+}
+.user h5{
+    font-size: 1rem;
+    font-weight: 700;
+    color: #363232;
+}
+.media img{
+    width: 11%;
+    height: 10%;
+    cursor: pointer;
+}
+
+@media (min-width: 992px){
+    
+    .navbar-expand-lg .navbar-collapse {
+        display: flex!important;
+        flex-basis: auto;
+        justify-content: flex-end;
+    }
+}
+
+@media (max-width:991px) {
+    .box-1{
+        margin-bottom: .5rem;
+    }
+    .btn{
+        width: 50%;
+    }
+    .fixed-top{
+        background-color: rgb(33, 33, 34);
+    }
+    .navbar-light .navbar-brand {
+        color: rgba(255, 255, 255, 0.9);
+    }
+    .fa-2x{
+        color: #949191;
+    }
+    .navbar-light .navbar-nav .nav-link {
+        color: #e2e2e2;
+        font-weight: 500;
+        font-size: 1.1rem;
+    }
+}
+@media (max-width:519px) {
+    .user{
+        flex-direction: column;
+        margin-bottom: 1.5rem;
+    }
+}
+
+@media (max-width:360px) {
+    .pick-up h5, .dest-up h5 {
+        display: flex;
+        font-size: 1.1rem;
+    }
+    .t-1 h5{
+        font-size: 1.1rem;
+    }
+    .t-1 p{
+        font-size: .5rem;
+    }
+    .image img {
+        width: 50%;
+    }
+    .image p, .t-1 p {
+        font-size: .5rem;
+    }
+    .btn{
+        width: 100%;
+    }
+}
+

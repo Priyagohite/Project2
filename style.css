@@ -1,0 +1,117 @@
+.container-2{
+    background-color: #ffffffed;
+    padding: 1rem;
+    border-radius: 5px;
+    color: rgb(0, 0, 0);
+    margin-left: 5rem;
+    width: 40%;
+    user-select: none;
+}
+.input-box{
+    padding: 1rem;
+}
+.input-box p{
+    color: #5f5f5f!important;
+    width: 100%!important;
+    font-family: 'Poppins'!important;
+    font-weight: 500;
+    margin-bottom: 0.5rem!important;
+}
+input{
+    border: 1px solid #b8b8b8;
+    background-color: transparent;
+    outline: none;
+    font-size: 1rem;
+    padding: .5rem;
+    color: rgb(0, 0, 0);
+    width: 100%;
+}
+.date{
+    display: flex;
+}
+.date input{
+    margin-right: .5rem;
+}
+.logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.logo i{
+    font-size: 1.3rem;
+    color: #ff7328;
+    border: 2px solid;
+    border-radius: 50%;
+    padding: .4rem;
+    cursor: pointer;
+}
+.button{
+    margin-top: 1rem;
+}
+.btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 500;
+    border-radius: 0;
+    color: white;
+    background: rgb(255, 153, 1);
+    border: 2px solid orange;
+    transition: all .6s ease;
+    box-shadow: 0 1rem 1rem rgba(0,0,0,.175)!important;
+    width: 100%;
+}
+a{
+    text-decoration: none;
+}
+.btn:hover{
+    background: transparent;
+    color: orange;
+}
+select{
+        border: navajowhite;
+    outline: none;
+    background: transparent;
+    font-weight: 500;
+    color: #4b4747;
+}
+
+@media (max-width : 992px) {
+    .container-2{
+        width: 50%;
+        margin-left: 2rem;
+    }
+}
+@media (max-width : 992px) {
+    .container-2{
+        width: 60%;
+    }
+}
+@media (max-width : 487px) {
+    .departure-box {
+        display: flex;
+        flex-direction: column;
+    }
+    .container-2{
+        width: 100%;
+        margin-left: 0;
+    }
+    .input-box{
+        margin-left: 0 !important;
+    }
+    input{
+        width: 100%;
+    }
+    .button {
+        margin-top: 0;
+    }
+}
+
+@media (max-width : 360px) {
+    .container-2{
+        margin-top: 4rem;
+    }
+    header.hero {
+        height: 600px;
+    }
+}
